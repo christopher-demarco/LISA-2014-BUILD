@@ -6,7 +6,7 @@ You should be on slack: https://lisa2014-build.slack.com.
 
 Build once, run anywhere.
 (where have we heard that before?)
-Provision ec2 and vSphere with the same Chef.
+Provision ec2 and ESXi with the same Chef.
 Do it again next year with 80% less effort.
 I expect we'll use s3 buckets (or bts!?) to store what little actual data there is.
 
@@ -32,10 +32,12 @@ Breadth-first.
 
 
 # Scalability
-DHCP is gonna suck, but DNS is worse.
-Unless we advert 8.8.8.8!?
-## Visualization
-Is DHCP lease info the most-important stat?
+DHCP is gonna suck, we have to balance lease renewal traffic with address space etc.
+Lease activity can inform INFOSEC.
+
+DNS could be worse.
+Unless we advert 8.8.8.8 to usernet, and only recurse for ourselves?
+Or do we eschew caching recursive resolution altogether?
 
 
 # Cookbooks
@@ -48,21 +50,26 @@ userland  (emacs/vi, colordiff, tcpdump, netcat, et al.)
 mail (somebody please make it simple)
 
 ## DNS
-bind https://supermarket.getchef.com/cookbooks/bind
-General package installation. Selection of subsystems.
-In theory, it should be possible to run both auth and resolv on the same host.
-
-auth is a special case of bind. Take DHCP updates, push to secondaries.
+dns-client (what resolvers to use)
+dns https://supermarket.getchef.com/cookbooks/bind is the subsystem and its installation.
+dns-auth is a special case of bind. Take DHCP updates, push to secondaries.
 Should this be mostly-config, i.e. attributes?
-
 resolv is a special case of bind. Cache like hell and try not to crash.
 
 ## DHCP 
 DHCP gets tricky because there are multiple nets. We have a large address space, which is going to be, uh, interesting for the infosec guys, but freeing leases vs. reducing traffic has to be a consideration.
 We should absolutely register DHCP clients in DNS.
+dhcp
+dhcp-server
+dhcp-client
+
+## tester
+A simulated user, a client of DHCP/DNS etc. Unit testing at layer 8.
+Chaos monkey.
 
 ## bootstrap
-tftpd for network gear
+tftp-server for network gear
+ubuntu-mirror
 
 
 ### nagios (or Zenoss?)
@@ -76,27 +83,37 @@ syslog-client (node search for target)
 munin https://supermarket.getchef.com/cookbooks/munin
 munin-server 
 munin-client 
-I've done this and written a few plugins, but it's grunt work. Happy to let somebody else bust this bronco.
+I've done this and written a few plugins, but it's grunt work. Happy to let somebody else have a few rides on the bicycle.
 
 ## Roles:
-lisa (common stuff)
-munin-node
-loghost
-dhcp
-resolv
-auth
-mon
+The "role" a particular node ("machine," could be virtual or physical) plays. Define the recipes that will be applied to any node which receives this role.
+Mostly assignment of attributes to things.
+TODO: How do you write one of these, and push it up to the server? Seriously hope most Chef users have been to the rodeo before.
+lisa: (probably a bad name) (everything gets this) users, userland, mail, dns-client, nagios-client, syslog-client, munin-client
+dhcp-server
+dns-resolver
+dns-auth
+splunk-server
+nagios-server
 tester
 build
-	
-## Environments (associate with cookbook tags)
-	* dev
-	* prod
+
+
+## Environments
+My understanding is that this is primarily a vehicle for tying a level-of-service to a particular git tag.
+dev
+prod
 	
 ## Data bags
-	* users
+Where you keep pure data. userids, passwords, keys and certs in encrypted databags; subnet lists, etc.
+This is JSON, so we need nice schemata here.
+users
+networks?
 
-Figure out how to use AWS templates to provision nodes.
+
+# AWS
+Figure out how to use AWS templates to provision VMs for nodes.
 
 
-
+# VMWare
+Figure out how to provision VMs for nodes.
