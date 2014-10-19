@@ -10,6 +10,7 @@ Provision ec2 and vSphere with the same Chef.
 Do it again next year with 80% less effort.
 
 Because posterity, design and documentation is paramount.
+How does a component communicate "Domain Expert Wanted"?
 
 I suppose there could be some networking stuff here, but that's out of my realm.
 
@@ -21,18 +22,23 @@ Domain experts should be able to (relatively) effortlessly drop in, say specify 
 
 Sysadmin scalability is important. A bus factor of 1 is bad.
 
+Somebody please think about security. 
+Do we need PKI: cert management, single-signon, etc.? 
+Do we sign DNS or down that way madness lies?
+
+Somebody please think about v6.
+
 Breadth-first.
 
+
 # Cookbooks
+These are where you specify how one might configure a particular app.
+The details of *which* DHCP address range, of *to whom* a syslog daemon might send remote logs—these are data, not specified here.
 
 ## Common
-users
-userland  (editors, colordiff, et al.)
-nagios-client (plugins)
-munin-client (plugins)
-syslog
-mail
-
+users (ssh keys in encrypted databags, groups, homedirs, dotfiles, etc.)
+userland  (emacs/vi, colordiff, tcpdump, netcat, et al.)
+mail (somebody please make it simple)
 
 ## DNS
 bind https://supermarket.getchef.com/cookbooks/bind
@@ -51,13 +57,17 @@ resolv is a special case of bind. See ``auth'', above.
 dhcpd
 tftpd
 
-### mon
+### nagios (or Zenoss?)
+nagios
 nagios-server (stuff like this can config based on node inventory)
-splunk-server
+nagios-client
+
+splunk
+syslog-client
 
 munin https://supermarket.getchef.com/cookbooks/munin
-munin-server
-munin-client /supra/
+munin-server 
+munin-client 
 
 ## Roles:
     * lisa (common stuff)
