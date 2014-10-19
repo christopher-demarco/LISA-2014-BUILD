@@ -39,14 +39,15 @@ DNS could be worse.
 Unless we advert 8.8.8.8 to usernet, and only recurse for ourselves?
 Or do we eschew caching recursive resolution altogether?
 
+# Deployment
+Whether to schedule chef-client in cron, to only do it by hand, or what?
+
+
 # Cookbooks
-These are where you specify how one might configure a particular app.
-The details of *which* DHCP address range, of *to whom* a syslog daemon might send remote logs—these are data, not specified here.
 
-TOOD: So there needs to be an easy way to get all this stuff checked out into one place so you can hack on it. SOMEBODY (and not just me) needs to be able to maintain it—knife-uploading them to chef-server, re-running the client on nodes)
+TODO: So there needs to be an easy way to get all this stuff checked out into one place so you can hack on it. SOMEBODY (and not just me) needs to be able to maintain it—knife-uploading them to chef-server, re-running the client on nodes)
 
-Which raises another operations question—whether to schedule chef-client in cron, to only do it by hand, or what?
-
+TODO: Berksfile vs. chef-librarian? Again, how does a dev provision the environment? Cookbooks are uploaded to chef-server, but how to manage 'em on one's workstation?
 
 ## Common
 users (ssh keys in encrypted databags, groups, homedirs, dotfiles, etc.)
@@ -74,11 +75,9 @@ resolv is a special case of bind. Cache like hell and try not to crash.
 ## DHCP 
 DHCP gets tricky because there are multiple nets. We have a large address space, which is going to be, uh, interesting for the infosec guys, but freeing leases vs. reducing traffic has to be a consideration.
 
-dhcp base config—bind vs.? 
+dhcp-server-role https://github.com/christopher-demarco/lisa2014-dhcp-server-role
 
-dhcp-server could this live in the cloud?
-
-dhcp-client: register in DNS!
+dhcp-client: Makes a client get its network information from DHCP, and register hostname in DNS.
 
 
 ## tester
