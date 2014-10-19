@@ -1,25 +1,48 @@
 # LISA-2014-BUILD
 
+This is a sketch of how this beast might look. This is not one monolithic repo because apparently that's an antipattern.
 
-This repository holds all code, config, docs, and resources for the compute side of LISA-2014-BUILD. I suppose there could be some networking stuff here, but that's out of my realm.
+I suppose there could be some networking stuff here, but that's out of my realm.
 
 I expect we'll use s3 buckets (or bts!?) to store data.
 
-So I guess here's how it goes:
-Standard DHCP, BIND cookbooks.
+Each templated file should carry a header showing how (or where to learn how) to edit it... (This raises the nagging question of whether everybody knows/is cool with Chef)
+
+## Cookbooks
+	* users
+	* environment (editors, colordiff, et al.)
+	* bind
+	* mon-client
+	    * nagios-plugins
+		* munin-client
+		* logdest
+	* mail
+	* bind
+	* dhcpd
+	* tftpd
+	* nagios-server (stuff like this can config based on node inventory)
+	* munin-server
+	* splunk-server
 
 ## Roles:
-	- lisa (common stuff)
-	- dhcp
-	- resolv
-	- auth
-	- mon
+    * lisa (common stuff)
+	    * munin-node
+		* loghost
+	* dhcp
+	* resolv
+    * auth
+    * mon
+	* tester
+	* build
+	
+## Environments (associate with cookbook tags)
+	* dev
+	* prod
+	
+## Data bags
+	* users
 
 Figure out how to use AWS templates to provision nodes.
-Then move on to the Nagios, Splunk integrations—deploy and provision based on node inventory.
-
-A major question in my mind is *where* all this documentation/design takes place—slack, Google Docs, in-place (github)? (Those are in decreasing order of abstraction, and inversely Emacs-friendliness :-/ )
 
 
-- Each templated file should carry a header showing how (or where to learn how) to edit it.
 
