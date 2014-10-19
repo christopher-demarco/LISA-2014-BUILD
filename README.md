@@ -1,25 +1,25 @@
 # LISA-2014-BUILD
 
-Everything is modular: Go look at the other repositories at https://github.com/christopher-demarco
+You should be on slack: https://lisa2014-build.slack.com
 
-You should be on slack: https://lisa2014-build.slack.com.
 
-Build once, run anywhere.
-(where have we heard that before?)
+All Chef stuff is modular: Go look at the other Chef repositories at https://github.com/christopher-demarco.
+
+
+Build once, run anywhere. (where have we heard that before?)
 Provision ec2 and ESXi with the same Chef.
 Do it again next year with 80% less effort.
-I expect we'll use s3 buckets (or bts!?) to store what little actual data there is.
+
+The point of Chef is to reduce complexity, not increase it. If domain experts have to jump through hoops, if only one person can maintain it, that's a problem. Sysadmin scalability is important. A bus factor of 1 is bad..
+
+Domain experts should be able to (relatively) effortlessly drop in, say specify the version of BIND, chroot it, switch it out for djbdns or...) 
+Each templated file should carry a header showing how (or where to learn how) to edit it.
+
+Chef shouldn't be friction, it should be empowerment.
 
 
 *DOMAIN EXPERT WANTED* Networking—vlans, QoS, etc. 
 Somebody out there must grok v6.
-
-
-Each templated file should carry a header showing how (or where to learn how) to edit it.
-
-Domain experts should be able to (relatively) effortlessly drop in, say specify the version of BIND, chroot it, switch it out for djbdns or...) 
-
-Sysadmin scalability is important. A bus factor of 1 is bad.
 
 
 *DOMAIN EXPERT WANTED* Security.
@@ -39,10 +39,13 @@ DNS could be worse.
 Unless we advert 8.8.8.8 to usernet, and only recurse for ourselves?
 Or do we eschew caching recursive resolution altogether?
 
-
 # Cookbooks
 These are where you specify how one might configure a particular app.
 The details of *which* DHCP address range, of *to whom* a syslog daemon might send remote logs—these are data, not specified here.
+
+TOOD: So there needs to be an easy way to get all this stuff checked out into one place so you can hack on it. SOMEBODY (and not just me) needs to be able to maintain it—knife-uploading them to chef-server, re-running the client on nodes)
+
+Which raises another operations question—whether to schedule chef-client in cron, to only do it by hand, or what?
 
 
 ## Common
@@ -51,9 +54,13 @@ users (ssh keys in encrypted databags, groups, homedirs, dotfiles, etc.)
 userland  (emacs/vi, colordiff, tcpdump, netcat, et al.)
 
 mail (somebody please make it simple)
+https://supermarket.getchef.com/cookbooks/postfix
 
 
 ## DNS
+
+https://supermarket.getchef.com/cookbooks/bind
+
 dns-client (what resolvers to use)
 
 dns https://supermarket.getchef.com/cookbooks/bind is the subsystem and its installation.
@@ -103,7 +110,7 @@ munin-client
 I've done this and written a few plugins, but it's grunt work. Happy to let somebody else have a few rides on the bicycle.
 
 
-## Roles:
+# Roles:
 The "role" a particular node ("machine," could be virtual or physical) plays. Define the recipes that will be applied to any node which receives this role.
 
 Mostly assignment of attributes to things.
@@ -129,11 +136,11 @@ tester
 build
 
 
-## Environments
+# Environments
 My understanding is that this is primarily a vehicle for tying a level-of-service to a particular git tag. Dev & prod.
 	
 
-## Data bags
+# Data bags
 Where you keep pure data. userids, passwords, keys and certs in encrypted databags; subnet lists, etc.
 
 This is JSON, so we should reference schemata here.
