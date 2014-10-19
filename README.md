@@ -8,13 +8,12 @@ Build once, run anywhere.
 (where have we heard that before?)
 Provision ec2 and vSphere with the same Chef.
 Do it again next year with 80% less effort.
+I expect we'll use s3 buckets (or bts!?) to store what little actual data there is.
 
-Because posterity, design and documentation is paramount.
-How does a component communicate "Domain Expert Wanted"?
 
-I suppose there could be some networking stuff here, but that's out of my realm.
+*DOMAIN EXPERT WANTED* Networking—vlans, QoS, etc. 
+Somebody out there must grok v6.
 
-I expect we'll use s3 buckets (or bts!?) to store data.
 
 Each templated file should carry a header showing how (or where to learn how) to edit it.
 
@@ -22,12 +21,13 @@ Domain experts should be able to (relatively) effortlessly drop in, say specify 
 
 Sysadmin scalability is important. A bus factor of 1 is bad.
 
-Somebody please think about security. 
+
+*DOMAIN EXPERT WANTED* Security.
 Do we need PKI: cert management, single-signon, etc.? 
 Do we sign DNS or down that way madness lies?
 
-Somebody please think about v6.
 
+Design and documentation is paramount.
 Breadth-first.
 
 
@@ -50,7 +50,7 @@ Should this be mostly-config, i.e. attributes?
 
 resolv is a special case of bind. See ``auth'', above. 
 
-## DHCP
+## DHCP gets tricky because there are multiple nets.
 
 
 ## bootstrap
