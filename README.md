@@ -107,7 +107,7 @@ munin https://supermarket.getchef.com/cookbooks/munin
 munin-server 
 
 munin-client 
-I've done this and written a few plugins, but it's grunt work. Happy to let somebody else have a few rides on the bicycle.
+I've done this and written a few plugins, but it's uninteresting. Happy to let somebody else have a turn on the bicycle.
 
 
 # Roles:
