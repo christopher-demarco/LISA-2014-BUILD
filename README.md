@@ -120,7 +120,7 @@ lisa: (probably a bad name) (everything gets this) users, userland, mail, dns-cl
 
 nagios-client, syslog-client, munin-client
 
-dhcp-server
+dhcp-server adds recipe[dhcp-server-role] to the run_list.
 
 dns-resolver
 

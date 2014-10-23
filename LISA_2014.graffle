@@ -46,7 +46,7 @@
 	<key>Creator</key>
 	<string>Christopher DeMarco</string>
 	<key>DisplayScale</key>
-	<string>1 0/72 in = 1 0/72 in</string>
+	<string>1 0/72 in = 1.0000 in</string>
 	<key>GraphDocumentVersion</key>
 	<integer>8</integer>
 	<key>GraphicsList</key>
@@ -919,8 +919,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>1</integer>
 			<key>Points</key>
 			<array>
-				<string>{491.3942189064411, 301.51389266037251}</string>
-				<string>{439.76510503418393, 267.03497163868644}</string>
+				<string>{491.39423351333005, 301.51388775574617}</string>
+				<string>{439.76513212826671, 267.03494278242937}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -956,8 +956,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>1</integer>
 			<key>Points</key>
 			<array>
-				<string>{491.40570810471974, 251.69631972975409}</string>
-				<string>{452.50227373028565, 252.29900471477674}</string>
+				<string>{491.40718881141765, 251.69782953328988}</string>
+				<string>{452.506014803178, 252.30302480978099}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -993,8 +993,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>1</integer>
 			<key>Points</key>
 			<array>
-				<string>{494.31095726555628, 202.20497928448361}</string>
-				<string>{439.76495403888396, 238.6316887239721}</string>
+				<string>{494.31101889619367, 202.20501542993674}</string>
+				<string>{439.76511716797523, 238.6318625555306}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1194,8 +1194,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>1</integer>
 			<key>Points</key>
 			<array>
-				<string>{267.14109204096053, 366.27886654793701}</string>
-				<string>{398.19176648182838, 268.0544693186875}</string>
+				<string>{267.14109098826452, 366.27886536611243}</string>
+				<string>{398.19175835929423, 268.0544607176235}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1793,8 +1793,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>2</integer>
 			<key>Points</key>
 			<array>
-				<string>{491.3942189064411, 301.51389266037251}</string>
-				<string>{439.76510503418393, 267.03497163868644}</string>
+				<string>{491.39423351333005, 301.51388775574617}</string>
+				<string>{439.76513212826671, 267.03494278242937}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1830,8 +1830,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>2</integer>
 			<key>Points</key>
 			<array>
-				<string>{491.40570810471974, 251.69631972975409}</string>
-				<string>{452.50227373028565, 252.29900471477674}</string>
+				<string>{491.40718881141765, 251.69782953328988}</string>
+				<string>{452.506014803178, 252.30302480978099}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1867,8 +1867,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>2</integer>
 			<key>Points</key>
 			<array>
-				<string>{494.31095726555628, 202.20497928448361}</string>
-				<string>{439.76495403888396, 238.6316887239721}</string>
+				<string>{494.31101889619367, 202.20501542993674}</string>
+				<string>{439.76511716797523, 238.6318625555306}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2138,8 +2138,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>2</integer>
 			<key>Points</key>
 			<array>
-				<string>{246.83320971668635, 362.99991526207236}</string>
-				<string>{246.83320971668635, 335.66665479502836}</string>
+				<string>{246.83320971668635, 362.99991526207242}</string>
+				<string>{246.83320971668635, 335.66665479503217}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2175,8 +2175,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>2</integer>
 			<key>Points</key>
 			<array>
-				<string>{226.87046351774936, 365.91195469886549}</string>
-				<string>{186.77018084173758, 334.59956086297871}</string>
+				<string>{226.87546561145058, 365.90663884823783}</string>
+				<string>{186.79203968393304, 334.58888655812365}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2212,8 +2212,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>2</integer>
 			<key>Points</key>
 			<array>
-				<string>{267.14109204096053, 366.27886654793701}</string>
-				<string>{398.19176648182838, 268.0544693186875}</string>
+				<string>{267.14109098826452, 366.27886536611243}</string>
+				<string>{398.19175835929423, 268.0544607176235}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2830,8 +2830,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{491.3942189064411, 301.51389266037251}</string>
-				<string>{439.76510503418393, 267.03497163868644}</string>
+				<string>{491.39423351333005, 301.51388775574617}</string>
+				<string>{439.76513212826671, 267.03494278242937}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2867,8 +2867,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{491.40570810471974, 251.69631972975409}</string>
-				<string>{452.50227373028565, 252.29900471477674}</string>
+				<string>{491.40718881141765, 251.69782953328988}</string>
+				<string>{452.506014803178, 252.30302480978099}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2904,8 +2904,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{494.31095726555628, 202.20497928448361}</string>
-				<string>{439.76495403888396, 238.6316887239721}</string>
+				<string>{494.31101889619367, 202.20501542993674}</string>
+				<string>{439.76511716797523, 238.6318625555306}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3314,8 +3314,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{246.83320971668635, 362.99991526207236}</string>
-				<string>{246.83320971668635, 335.66665479502836}</string>
+				<string>{246.83320971668635, 362.99991526207242}</string>
+				<string>{246.83320971668635, 335.66665479503217}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3351,8 +3351,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{258.62104034100201, 363.07876176596756}</string>
-				<string>{317.37997334709377, 271.25456560214496}</string>
+				<string>{258.62084832245762, 363.07875977472122}</string>
+				<string>{317.37882422767444, 271.25455359633713}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3388,8 +3388,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{246.83321414052833, 362.99991528767464}</string>
-				<string>{246.83321414052833, 271.3333978499885}</string>
+				<string>{246.83321414052833, 362.99991528767458}</string>
+				<string>{246.83321414052833, 271.3333978499877}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3425,8 +3425,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{235.04558937151509, 363.07875975029464}</string>
-				<string>{176.28762422752266, 271.25455467251913}</string>
+				<string>{235.04558920213978, 363.0787597502964}</string>
+				<string>{176.28762321410329, 271.25455467291027}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3462,8 +3462,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{226.87046351774936, 365.91195469886549}</string>
-				<string>{186.77018084173758, 334.59956086297871}</string>
+				<string>{226.87546561145058, 365.90663884823783}</string>
+				<string>{186.79203968393304, 334.58888655812365}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3499,8 +3499,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{272.4133638783909, 198.08647942993585}</string>
-				<string>{392.91951566163391, 243.2470332465378}</string>
+				<string>{272.41335948367782, 198.08648408441846}</string>
+				<string>{392.91949078531667, 243.24705991097079}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3536,8 +3536,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{246.83320989420881, 207.00013438423778}</string>
-				<string>{246.83320989420881, 298.66665477218106}</string>
+				<string>{246.83320989420881, 207.00013438423775}</string>
+				<string>{246.83320989420881, 298.66665477218146}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3573,8 +3573,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{266.79259598589408, 204.09168318164072}</string>
-				<string>{306.88149754995754, 235.40769250404423}</string>
+				<string>{266.79056559574542, 204.09384091361323}</string>
+				<string>{306.87263433955695, 235.41203167959623}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3610,8 +3610,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{246.83321818216334, 207.00013437906071}</string>
-				<string>{246.83321818216334, 234.33339785791236}</string>
+				<string>{246.83321818216334, 207.00013437906074}</string>
+				<string>{246.83321818216334, 234.33339785791617}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3647,8 +3647,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{226.8760309161006, 204.09401135326405}</string>
-				<string>{186.79449170990091, 235.41238236980388}</string>
+				<string>{226.87612868280922, 204.09411525677459}</string>
+				<string>{186.79491822109892, 235.41259150265748}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -3684,8 +3684,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>3</integer>
 			<key>Points</key>
 			<array>
-				<string>{267.14109204096053, 366.27886654793701}</string>
-				<string>{398.19176648182838, 268.0544693186875}</string>
+				<string>{267.14109098826452, 366.27886536611243}</string>
+				<string>{398.19175835929423, 268.0544607176235}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -4177,7 +4177,7 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{66.833223806487311, 471.66664792431789}, {360, 28}}</string>
+			<string>{{377.99998995330668, 501.66662250624819}, {360, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -4341,8 +4341,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{491.3942189064411, 301.51389266037251}</string>
-				<string>{439.76510503418393, 267.03497163868644}</string>
+				<string>{491.39423351333005, 301.51388775574617}</string>
+				<string>{439.76513212826671, 267.03494278242937}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -4378,8 +4378,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{491.40570810471974, 251.69631972975409}</string>
-				<string>{452.50227373028565, 252.29900471477674}</string>
+				<string>{491.40718881141765, 251.69782953328988}</string>
+				<string>{452.506014803178, 252.30302480978099}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -4415,8 +4415,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{494.31095726555628, 202.20497928448361}</string>
-				<string>{439.76495403888396, 238.6316887239721}</string>
+				<string>{494.31101889619367, 202.20501542993674}</string>
+				<string>{439.76511716797523, 238.6318625555306}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -4860,8 +4860,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{246.83320971668635, 362.99991526207236}</string>
-				<string>{246.83320971668635, 335.66665479502836}</string>
+				<string>{246.83320971668635, 362.99991526207242}</string>
+				<string>{246.83320971668635, 335.66665479503217}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -4897,8 +4897,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{258.62104034100201, 363.07876176596756}</string>
-				<string>{317.37997334709377, 271.25456560214496}</string>
+				<string>{258.62084832245762, 363.07875977472122}</string>
+				<string>{317.37882422767444, 271.25455359633713}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -4934,8 +4934,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{246.82864962746353, 362.99991528486947}</string>
-				<string>{246.80601434699204, 271.33339733291081}</string>
+				<string>{246.83308755574771, 362.99991528767458}</string>
+				<string>{246.83244197435428, 271.33339784997247}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -4971,8 +4971,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{235.04558937151509, 363.07875975029464}</string>
-				<string>{176.28762422752266, 271.25455467251913}</string>
+				<string>{235.04558920213978, 363.0787597502964}</string>
+				<string>{176.28762321410329, 271.25455467291027}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5008,8 +5008,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{226.87046351774936, 365.91195469886549}</string>
-				<string>{186.77018084173758, 334.59956086297871}</string>
+				<string>{226.87546561145058, 365.90663884823783}</string>
+				<string>{186.79203968393304, 334.58888655812365}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5046,7 +5046,7 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<key>Points</key>
 			<array>
 				<string>{246.83321805868707, 142.66685639600362}</string>
-				<string>{246.83321805868707, 170.00013438968313}</string>
+				<string>{246.83321805868707, 170.0001343896831}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5082,8 +5082,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{272.4133638783909, 198.08647942993585}</string>
-				<string>{392.91951566163391, 243.2470332465378}</string>
+				<string>{272.41335948367782, 198.08648408441846}</string>
+				<string>{392.91949078531667, 243.24705991097079}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5119,8 +5119,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{246.83320989420881, 207.00013438423778}</string>
-				<string>{246.83320989420881, 298.66665477218106}</string>
+				<string>{246.83320989420881, 207.00013438423775}</string>
+				<string>{246.83320989420881, 298.66665477218146}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5156,8 +5156,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{266.79259598589408, 204.09168318164072}</string>
-				<string>{306.88149754995754, 235.40769250404423}</string>
+				<string>{266.79056559574542, 204.09384091361323}</string>
+				<string>{306.87263433955695, 235.41203167959623}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5193,8 +5193,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{247.08763784269405, 207.00008710114713}</string>
-				<string>{247.46354198151278, 234.33368784248677}</string>
+				<string>{246.87466619502442, 207.00013311286759}</string>
+				<string>{246.93590475075314, 234.33340557443651}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5230,8 +5230,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{226.8760309161006, 204.09401135326405}</string>
-				<string>{186.79449170990091, 235.41238236980388}</string>
+				<string>{226.87612868280922, 204.09411525677459}</string>
+				<string>{186.79491822109892, 235.41259150265748}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5267,8 +5267,8 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			<integer>4</integer>
 			<key>Points</key>
 			<array>
-				<string>{267.14109204096053, 366.27886654793701}</string>
-				<string>{398.19176648182838, 268.0544693186875}</string>
+				<string>{267.14109098826452, 366.27886536611243}</string>
+				<string>{398.19175835929423, 268.0544607176235}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5289,6 +5289,86 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 				<key>ID</key>
 				<integer>251</integer>
 			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{125.83332833316609, 23.999990204969833}, {243.16665649414062, 166.66665649414062}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>28</integer>
+			<key>Layer</key>
+			<integer>4</integer>
+			<key>Shape</key>
+			<string>Circle</string>
+			<key>Style</key>
+			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Pattern</key>
+					<integer>24</integer>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf140
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
+
+\f0\fs24 \cf0 usernet\
+172.19.0.0/16}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextPlacement</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{77.333338340123646, 210.66664669911046}, {318.33331298828125, 259.16665649414062}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>280</integer>
+			<key>Layer</key>
+			<integer>4</integer>
+			<key>Shape</key>
+			<string>Circle</string>
+			<key>Style</key>
+			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Pattern</key>
+					<integer>24</integer>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf140
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
+
+\f0\fs24 \cf0 manage\
+172.18.1.0/24}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextPlacement</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>GridInfo</key>
@@ -5380,7 +5460,7 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-10-18 03:20:47 +0000</string>
+	<string>2014-10-23 02:31:12 +0000</string>
 	<key>Modifier</key>
 	<string>Christopher DeMarco</string>
 	<key>NotesVisible</key>
@@ -5466,7 +5546,7 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{123, -24}, {1020, 872}}</string>
+		<string>{{44, 830}, {1140, 877}}</string>
 		<key>ListView</key>
 		<false/>
 		<key>OutlineWidth</key>
@@ -5480,7 +5560,7 @@ routers, switches, firewalls, etc. are virtual in cloud, physical in NOC}</strin
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, -27}, {737.49997069438416, 608.33330916033947}}</string>
+		<string>{{-41, -29}, {837.49996672074133, 612.4999756614377}}</string>
 		<key>Zoom</key>
 		<real>1.2000000476837158</real>
 		<key>ZoomValues</key>
